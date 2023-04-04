@@ -1,8 +1,8 @@
 #include<stdio.h>
-int main(){
-int i;
 
-int a[10];
-printf("%p",a);
+int main()
+{
+int arr[]={2,3,4,5,6};
 
+printf("%d",*arr);
 }
